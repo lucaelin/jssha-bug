@@ -1,0 +1,26 @@
+{
+  "name": "jssha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "rollup1": "rollup -c ./1.rollup.config.js",
+    "rollup2": "rollup -c ./2.rollup.config.js",
+    "rollup3": "rollup -c ./3.rollup.config.js",
+    "node1": "node dist/1.js",
+    "node2": "node dist/2.js",
+    "node3": "node dist/3.js",
+    "browser": "firefox index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-sha256": "^0.9.0",
+    "rollup": "^0.63.4",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-typescript2": "^0.16.1",
+    "typescript": "^3.0.1"
+  }
+}

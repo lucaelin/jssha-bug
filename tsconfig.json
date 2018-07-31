@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+  },
+  "include": [
+    "src/1.ts",
+    "src/2.ts",
+    "src/3.ts",
+  ],
+  "exclude": [
+    "test/fixtures/**/*.*",
+    "node_modules"
+  ]
+}
